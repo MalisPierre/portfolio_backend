@@ -1,0 +1,10 @@
+<h2>simple test view</h2>
+<span>toto var == <span style="color: pink;">{{ message }}</span> </span>
+
+USERS START
+<ul>
+{% for user in users %}
+<li>USER {{ user.id }} {{ user.username }}</li>
+{% endfor %}
+</ul>
+USERS DONE

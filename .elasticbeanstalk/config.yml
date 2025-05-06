@@ -1,0 +1,19 @@
+branch-defaults:
+  main:
+    environment: portfolio-backend-dev
+environment-defaults:
+  portfolio-backend-dev:
+    branch: null
+    repository: null
+global:
+  application_name: portfolio-backend
+  default_ec2_keyname: portfolio-keypair
+  default_platform: Python 3.9 running on 64bit Amazon Linux 2023
+  default_region: eu-central-1
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: eb-cli
+  sc: git
+  workspace_type: Application

@@ -1,0 +1,18 @@
+[
+{
+   "model": "skill.skill",
+   "pk": 1,
+   "fields": {
+      "title": "ee",
+      "header": "ee"
+   }
+},
+{
+   "model": "skill.skill",
+   "pk": 2,
+   "fields": {
+      "title": "python",
+      "header": "python"
+   }
+}
+]

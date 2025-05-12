@@ -8,8 +8,7 @@ from time import sleep
 
 # @shared_task()
 def task_clear_database():
-    from time import sleep
-    print("STARTING CLEARING UP DATABASE ...")
+    # from time import sleep
     skills = Skill.objects.all()
     for skill in skills:
         skills.delete()

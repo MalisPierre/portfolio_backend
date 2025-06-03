@@ -1,3 +1,6 @@
 from django.contrib import admin
+from experience.models import Experience, ExperienceTask, ExperienceSkill
 
-# Register your models here.
+admin.site.register(Experience)
+admin.site.register(ExperienceTask)
+admin.site.register(ExperienceSkill)

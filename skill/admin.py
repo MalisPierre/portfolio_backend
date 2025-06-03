@@ -23,7 +23,7 @@ def clear_database(request, *args, **kwargs):
         })
     else:
         task_clear_database()
-        return redirect('/adm')
+        return redirect('/adm/')
 
 
 def populate_database(request, *args, **kwargs):
@@ -36,7 +36,7 @@ def populate_database(request, *args, **kwargs):
         })
     else:
         task_populate_database()
-        return redirect('/adm')
+        return redirect('/adm/')
 
 admin.site.register_view('clear_database', view=clear_database, name='clear database')
 admin.site.register_view('populate_database', view=populate_database, name='populate database')

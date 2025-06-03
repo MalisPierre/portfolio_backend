@@ -27,7 +27,7 @@ wcwidth==0.2.13
 psycopg2-binary==2.9.10
 python-dotenv==1.1.0
 django-adminplus==0.6
-djangorestframework==3.16.0
+djangorestframework
 django-cors-headers==4.7.0
 django-multiselectfield==0.1.13
 #Django==3.2.5

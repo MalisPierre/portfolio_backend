@@ -1,18 +1,322 @@
 [
 {
-   "model": "skill.skill",
-   "pk": 1,
-   "fields": {
-      "title": "ee",
-      "header": "ee"
-   }
+    "model": "skill.skill",
+    "pk": 1,
+    "fields": {
+        "title": "ee",
+        "display_title": false,
+        "mode": "SOFT",
+        "description": "ee",
+        "tips": "",
+        "example": "",
+        "color": "",
+        "level": 1,
+        "icon": "skill_icon/banner.jpg",
+        "banner": "skill_banner/banner.jpg"
+    }
 },
 {
-   "model": "skill.skill",
-   "pk": 2,
-   "fields": {
-      "title": "python",
-      "header": "python"
-   }
+    "model": "skill.skill",
+    "pk": 2,
+    "fields": {
+        "title": "python",
+        "display_title": false,
+        "mode": "HARD",
+        "description": "Le language python est un language de programmation orienté objet avec une syntaxe super simple et un typage assouplis.<br/>\r\nCela permet de développer des sites et applications a un haut niveau sans se prendre trop la tete avec les acces memoires ect ...<br/>\r\n<br/>\r\nJ'ai eu beaucoup d'expérience avec ce language surtout pour le développement web avec le framework Django !<br/>",
+        "tips": "tip tip tip",
+        "example": "example of something interesting",
+        "color": "FFE56E",
+        "level": 4,
+        "icon": "skill_icon/python-icon.png",
+        "banner": "skill_banner/python-banner.jpg"
+    }
+},
+{
+    "model": "skill.skill",
+    "pk": 3,
+    "fields": {
+        "title": "django",
+        "display_title": false,
+        "mode": "HARD",
+        "description": "Django est un serveur web back-end implémenté en python.<br/>\r\n<br/>\r\nIl est très utilisé pour le développement web et permet de bien structurer un projet avec le modèle vue controlleur et une jolie ORM.<br/>\r\nHistoriquement il était utilisé comme framerok full stack avec le front-end gérer par django et son système de template.<br/>\r\n<br/>\r\nDe nos jours il est surtout utilisé comme framework back-end et communique avec un framework front-end via appels apis.<br/>(ceci est aussi vrai pour le micro-service)<br/>\r\n<br/>",
+        "tips": "",
+        "example": "",
+        "color": "103e2e",
+        "level": 5,
+        "icon": "skill_icon/django-icon.svg",
+        "banner": "skill_banner/django-banner.png"
+    }
+},
+{
+    "model": "skill.skill",
+    "pk": 4,
+    "fields": {
+        "title": "git",
+        "display_title": false,
+        "mode": "HARD",
+        "description": "Git est un système de gestion de versions qui permet de travailler sur du code en équipe et en intégration continue nottament via les sites tels que github ou gitlab.<br/>\r\n<br/>\r\nJ'ai utilisé github tout au long de ma carrière en tant que développeur et j'ai appris à maitrisé certains concepts et certains techniques assez avancé tels que les rebasage interactifs, la résolution de conflit sur une branche et l'utilisation de git stash<br/>\r\n<br/>",
+        "tips": "",
+        "example": "",
+        "color": "",
+        "level": 5,
+        "icon": "skill_icon/git-icon.png",
+        "banner": "skill_banner/git-banner.png"
+    }
+},
+{
+    "model": "skill.skill",
+    "pk": 5,
+    "fields": {
+        "title": "vue.js",
+        "display_title": false,
+        "mode": "HARD",
+        "description": "Vue.js est un framework front-end javascript qui gère le contenu des pages web.<br/>\r\n<br/>\r\nJ'ai acquis presque 2 ans d'expérience sur ce framework (surtout en version Vue2.<br/>\r\nJ'ai acquis un certains nombre de concepts et de limitations de ce framework tel que le système de routing, de composants et le rafraichissement des props/ variables via l'utilisation des keys.<br/>\r\n<br/>",
+        "tips": "vue",
+        "example": "vue",
+        "color": "FBFBFB",
+        "level": 3,
+        "icon": "skill_icon/vue-icon.png",
+        "banner": "skill_banner/vue-banner.png"
+    }
+},
+{
+    "model": "skill.skill",
+    "pk": 6,
+    "fields": {
+        "title": "github",
+        "display_title": false,
+        "mode": "HARD",
+        "description": "github est un site qui permet d'hebéger des projets git.<br/>\r\n<br/>\r\nJ'ai appris à maitriser les différents concepts dev-ops que propose ce site tels que les scripts d(intégration continue, les jobs/workers et les variables de projet<br/>\r\n<br/>\r\nLe saviez vous, sur l historique de branche on a un listing des commit par ordre décroissant.<br/>\r\nSur l'historique de pull request on a le listing des commits par ordre croissant ?!? Pourquoi ?!?!<br/>\r\n<br/>",
+        "tips": "github",
+        "example": "github",
+        "color": "FFFFFF",
+        "level": 5,
+        "icon": "skill_icon/github-icon.png",
+        "banner": "skill_banner/github-banner.jpg"
+    }
+},
+{
+    "model": "skill.skill",
+    "pk": 7,
+    "fields": {
+        "title": "Postgresql",
+        "display_title": false,
+        "mode": "HARD",
+        "description": "Postgresql",
+        "tips": "Postgresql",
+        "example": "Postgresql",
+        "color": "FFFFFF",
+        "level": 3,
+        "icon": "skill_icon/Postgresql-icon.png",
+        "banner": "skill_banner/Postgresql-banner_ZFE7TH4.png"
+    }
+},
+{
+    "model": "skill.skill",
+    "pk": 8,
+    "fields": {
+        "title": "Symfony",
+        "display_title": false,
+        "mode": "HARD",
+        "description": "Symfony est un serveur web back-end implémenté en PHP.<br/>\r\n<br/>\r\nIl est très utilisé pour le développement web et permet de bien structurer un projet avec le modèle vue controlleur et une jolie ORM.<br/>",
+        "tips": "Symfony",
+        "example": "Symfony",
+        "color": "FFFFFF",
+        "level": 1,
+        "icon": "skill_icon/symfony-icon.png",
+        "banner": "skill_banner/symfony-banner.png"
+    }
+},
+{
+    "model": "skill.skill",
+    "pk": 9,
+    "fields": {
+        "title": "cypress",
+        "display_title": false,
+        "mode": "HARD",
+        "description": "cypress",
+        "tips": "cypress",
+        "example": "cypress",
+        "color": "FFFFFF",
+        "level": 5,
+        "icon": "skill_icon/cypress-icon.svg",
+        "banner": "skill_banner/Cypress-banner_I5z18uR.png"
+    }
+},
+{
+    "model": "skill.skill",
+    "pk": 10,
+    "fields": {
+        "title": "unittest",
+        "display_title": false,
+        "mode": "HARD",
+        "description": "unittest est une librairie python qui permet de gérer les tests unitaires python.<br/>",
+        "tips": "unittest",
+        "example": "unittest",
+        "color": "FFFFFF",
+        "level": 4,
+        "icon": "skill_icon/Unittest-icon.png",
+        "banner": "skill_banner/unitest-banner.png"
+    }
+},
+{
+    "model": "skill.skill",
+    "pk": 11,
+    "fields": {
+        "title": "aws",
+        "display_title": false,
+        "mode": "HARD",
+        "description": "amazon web services est un des plus grandes solutions de cloud et de hosting pour le développement et la production web.<br/>",
+        "tips": "",
+        "example": "",
+        "color": "FFFFFF",
+        "level": 2,
+        "icon": "skill_icon/aws-icon.png",
+        "banner": "skill_banner/aws-banner.png"
+    }
+},
+{
+    "model": "skill.skill",
+    "pk": 12,
+    "fields": {
+        "title": "PHP",
+        "display_title": false,
+        "mode": "HARD",
+        "description": "PHP est un language de programmation web qui permet de définir la logique .<br/>\r\n<br/>\r\nCeci inclut la connection à la base de donnée, la sécurité, la soumission de formulaire et la gestion utilisateur.<br/>",
+        "tips": "",
+        "example": "",
+        "color": "FFFFFF",
+        "level": 1,
+        "icon": "skill_icon/PHP-icon.png",
+        "banner": "skill_banner/PHP-icon.png"
+    }
+},
+{
+    "model": "skill.skill",
+    "pk": 13,
+    "fields": {
+        "title": "html5",
+        "display_title": false,
+        "mode": "HARD",
+        "description": "html",
+        "tips": "",
+        "example": "",
+        "color": "FFFFFF",
+        "level": 4,
+        "icon": "skill_icon/HTML5.png",
+        "banner": "skill_banner/HTML5.png"
+    }
+},
+{
+    "model": "skill.skill",
+    "pk": 14,
+    "fields": {
+        "title": "css",
+        "display_title": false,
+        "mode": "HARD",
+        "description": "css",
+        "tips": "css",
+        "example": "",
+        "color": "FFFFFF",
+        "level": 4,
+        "icon": "skill_icon/CSS3.png",
+        "banner": "skill_banner/CSS3.png"
+    }
+},
+{
+    "model": "skill.skill",
+    "pk": 15,
+    "fields": {
+        "title": "javascript",
+        "display_title": false,
+        "mode": "HARD",
+        "description": "javascript",
+        "tips": "",
+        "example": "",
+        "color": "FFFFFF",
+        "level": 3,
+        "icon": "skill_icon/Javascript.png",
+        "banner": "skill_banner/Javascript.png"
+    }
+},
+{
+    "model": "skill.skill",
+    "pk": 16,
+    "fields": {
+        "title": "linux",
+        "display_title": false,
+        "mode": "HARD",
+        "description": "linux est un système d'exploitation propice au développement web.<br/>\r\n<br/>\r\nJe travaille sur ce support depuis une décénie et ai maitrisé une grande partie des fonctionnalitées.<br/>",
+        "tips": "",
+        "example": "",
+        "color": "",
+        "level": 5,
+        "icon": "skill_icon/linux-icon.png",
+        "banner": "skill_banner/linux-banner.png"
+    }
+},
+{
+    "model": "skill.skill",
+    "pk": 17,
+    "fields": {
+        "title": "graphql",
+        "display_title": false,
+        "mode": "HARD",
+        "description": "graphql est une librairie qui permet de gérer la structuration de pont api.<br/>\r\n<br/>",
+        "tips": "",
+        "example": "",
+        "color": "FFFFFF",
+        "level": 4,
+        "icon": "skill_icon/graphql-icon.png",
+        "banner": "skill_banner/graphql-banner.png"
+    }
+},
+{
+    "model": "skill.skill",
+    "pk": 18,
+    "fields": {
+        "title": "django rest framework",
+        "display_title": false,
+        "mode": "HARD",
+        "description": "django rest framework est une librairie python/django qui permet de gérer la structuration de pont api.<br/>\r\n<br/>",
+        "tips": "",
+        "example": "",
+        "color": "FFFFFF",
+        "level": 4,
+        "icon": "skill_icon/django-restfull-banner.png",
+        "banner": "skill_banner/django-restfull-banner.png"
+    }
+},
+{
+    "model": "skill.skill",
+    "pk": 19,
+    "fields": {
+        "title": "C#",
+        "display_title": false,
+        "mode": "HARD",
+        "description": "C# est un language de programmation orienté objet.<br/>\r\n<br/>\r\nCe language reprend la syntaxe du C++ mais simplifie le développment en abandonnant certains aspects tels que les pointeurs et les accès mémoire.<br/>\r\n<br/>\r\nIl est très utilisé sur beaucoup de logiciels microsoft windows via les technologies .NET<br/>",
+        "tips": "",
+        "example": "",
+        "color": "FFFFFF",
+        "level": 3,
+        "icon": "skill_icon/Csharp_Logo_6SOL0WN.png",
+        "banner": "skill_banner/Csharp_Logo_iyJcoZH.png"
+    }
+},
+{
+    "model": "skill.skill",
+    "pk": 20,
+    "fields": {
+        "title": "CPP",
+        "display_title": false,
+        "mode": "HARD",
+        "description": "Le C++ est un des plus grands languages de programmation.<br/>\r\nJ'ai passé 3 ans à développer en C++ en tant qu'étudiant à EPITECH et j'ai acquis la plupart des concepts de développement logiciel<br/>",
+        "tips": "",
+        "example": "",
+        "color": "FFFFFF",
+        "level": 2,
+        "icon": "skill_icon/cpp-logo_r3IYKLK.png",
+        "banner": "skill_banner/cpp-logo_1xEnudY.png"
+    }
 }
 ]

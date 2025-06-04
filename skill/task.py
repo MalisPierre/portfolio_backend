@@ -9,9 +9,26 @@ from time import sleep
 # @shared_task()
 def task_clear_database():
     # from time import sleep
+    from experience.models import Experience, ExperienceSkill, ExperienceTask
+    from diploma.models import Diploma
+    from hobby.models import Hobby, HobbyImage
+    print("START CLEARING UP DATABASE")
     skills = Skill.objects.all()
-    for skill in skills:
-        skills.delete()
+    skills.delete()
+    sections = SkillSection.objects.all()
+    sections.delete()
+    experiences = Experience.objects.all()
+    experiences.delete()
+    experience_skills = ExperienceSkill.objects.all()
+    experience_skills.delete()
+    experience_stasks = ExperienceTask.objects.all()
+    experience_stasks.delete()
+    hobbies = Hobby.objects.all()
+    hobbies.delete()
+    hobby_images = HobbyImage.objects.all()
+    hobby_images.delete()
+    diplomas = Diploma.objects.all()
+    diplomas.delete()
     print("DONE CLEARING UP DATABASE")
 
 # @shared_task()

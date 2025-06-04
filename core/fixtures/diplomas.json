@@ -1,0 +1,29 @@
+[
+{
+    "model": "diploma.diploma",
+    "pk": 3,
+    "fields": {
+        "title": "bac ES",
+        "description": "Baccalauréat ES, obtenu avec la mention Bien",
+        "date": "2013-01-01"
+    }
+},
+{
+    "model": "diploma.diploma",
+    "pk": 4,
+    "fields": {
+        "title": "Diplôme EPITECH",
+        "description": "Diplôme EPITECH, reconnu comme\r\nExpert en Technologies de l’Information par l'état",
+        "date": "2019-01-01"
+    }
+},
+{
+    "model": "diploma.diploma",
+    "pk": 5,
+    "fields": {
+        "title": "concours CNRD",
+        "description": "3ème au concours national de la Résistance et de la Déportation, département Yvelines",
+        "date": "2013-01-01"
+    }
+}
+]

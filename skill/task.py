@@ -19,4 +19,6 @@ def task_populate_database():
     from django.core.management import call_command
     print("STARTING POPULATING DATABASE ...")
     call_command('loaddata', 'core/fixtures/skills.json', verbosity=0)
+    call_command('loaddata', 'core/fixtures/experiences.json', verbosity=0)
+    call_command('loaddata', 'core/fixtures/hobbies.json', verbosity=0)
     print("DONE POPULATING DATABASE")

@@ -48,7 +48,7 @@ class Skill(models.Model):
     def experiences(self):
         from experience.models import ExperienceSkill
         return ExperienceSkill.objects.filter(skill__id=self.id).select_related('experience').values(
-            'id', 
+            experience_ref=F('experience__id'), 
             job_title=F('experience__job_title'),
             contract_type=F('experience__contract_type'),
             company_name=F('experience__company_name'),

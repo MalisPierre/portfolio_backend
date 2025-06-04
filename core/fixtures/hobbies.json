@@ -1,0 +1,47 @@
+[
+{
+    "model": "hobby.hobby",
+    "pk": 1,
+    "fields": {
+        "title": "Modélisme",
+        "description": "figurines et modèles",
+        "banner": "hobby_banner/61iyMPSbRL.jpg"
+    }
+},
+{
+    "model": "hobby.hobby",
+    "pk": 2,
+    "fields": {
+        "title": "D&D",
+        "description": "donjon & dragon",
+        "banner": "hobby_banner/hobby-banner_rAAZsqv.jpg"
+    }
+},
+{
+    "model": "hobby.hobby",
+    "pk": 3,
+    "fields": {
+        "title": "sport",
+        "description": "sport",
+        "banner": "hobby_banner/hobby-banner_ODjKqls.jpg"
+    }
+},
+{
+    "model": "hobby.hobbyimage",
+    "pk": 1,
+    "fields": {
+        "title": "dddd",
+        "file": "hobby_image/image_infirmary.png",
+        "hobby": 1
+    }
+},
+{
+    "model": "hobby.hobbyimage",
+    "pk": 2,
+    "fields": {
+        "title": "eeee",
+        "file": "hobby_image/image_cockpit.jpg",
+        "hobby": 1
+    }
+}
+]

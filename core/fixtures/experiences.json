@@ -1,0 +1,678 @@
+[
+{
+    "model": "experience.experience",
+    "pk": 1,
+    "fields": {
+        "job_title": "Développeur Full-Stack Django/Vue.js",
+        "contract_type": "CDI",
+        "company_name": "Zerosix",
+        "localisation": "Montpellier, France",
+        "description": "Zerosix est une société qui propose des solutions pour fidéliser la clientèle dans les secteurs tels que le retail, l'optique et la restauration.<br/>\r\n<br/>\r\nJ'ai été ammené a structurer et implémenter les tests cypress en intégration continue sur gitlab et à les faires tourner avec des données et fixtures django python<br/>\r\n<br/>\r\nJ'ai aussi été ammené a développer des features et des pages vue.js qui communique avec le back-end django grace à graphql<br/>\r\n<br/>\r\nJ'ai aussi fait un nombre importants de taches diverses et variées tels que la résolution d'incident et l'implémentation de nouvelles fonctionnalitées<br/>\r\n<br/>",
+        "start_date": "2024-09-02",
+        "end_date": "2025-05-13",
+        "banner": "experience_banner/zerosix-banner.png"
+    }
+},
+{
+    "model": "experience.experience",
+    "pk": 2,
+    "fields": {
+        "job_title": "Développeur backend django/python",
+        "contract_type": "CDI",
+        "company_name": "Paris, FFE",
+        "localisation": "France",
+        "description": "FFE est une entreprise de conception logiciel pour les cabinets d'avocats et les accompagner dans leurs gestion de brevets et copyright.<br/>\r\n<br/>\r\nJ'ai été ammené à faire du devops et implémenter les job gitlab et le lancement automatique de tests unitaire<br/>\r\n<br/>\r\nJ'ai aussi été ammené à faire un script de migration de base de donnée pour un nouveau client avec beaucoup de contraintes du à l'état de la base de donnée<br/>\r\n<br/>\r\nJ'ai aussi fait un nombre importants de taches diverses et variées tels que la résolution d'incident et l'implémentation de nouvelles fonctionnalitées<br/>\r\n<br/>",
+        "start_date": "2020-01-01",
+        "end_date": "2023-07-01",
+        "banner": "experience_banner/FFE_banner.png"
+    }
+},
+{
+    "model": "experience.experience",
+    "pk": 3,
+    "fields": {
+        "job_title": "Développeur Symfony Full-Stack",
+        "contract_type": "INTERNSHIP",
+        "company_name": "Proarti",
+        "localisation": "Paris, France",
+        "description": "Proarti est un site de crowdfunding Français qui met en relation les créateurs de projets culturels avec les donateurs.<br/>\r\n<br/>\r\nJ'ai été ammené a corriger les tickets incidents en production via des pull request gitlab<br/>\r\nJ'ai monté en niveau sur l'aspec dev-ops avec l'éxécution automatique des tests unitaires via un bot gitlab ci-cd<br/>\r\nJ'ai également implémenté de nouvelles features tel que:<br/>\r\nLa mise à jour de la page d'accueil touscoprod (gérée par proarti) avec l'affichage d'un caroussel javascript<br/>\r\nL'implémentation front-end et back-end du support des donateurs belges avec la mise a jour de la tva  pour les dons et la possibilité de réduire ses impots belges.<br/>",
+        "start_date": "2019-03-01",
+        "end_date": "2019-09-01",
+        "banner": "experience_banner/proarti-banner_wwlKGL7.png"
+    }
+},
+{
+    "model": "experience.experience",
+    "pk": 4,
+    "fields": {
+        "job_title": "Développeur Python/Django",
+        "contract_type": "INTERNSHIP",
+        "company_name": "I-Demenager",
+        "localisation": "Paris, France",
+        "description": "<b>NextStories<b/>, anciennement <b>I-Demenager<b/> est une sociétée sur Paris qui fait la mise en  relation entre les particuliers et les professionnels du déménagement.<br/>\r\n<br/>\r\nUn site web permet aux clients finaux de prendre contact avec notre service client.<br/>\r\nLe service client fait la visite et l'inventaire en ligne via visio conférence.<br/>\r\nSuite a cela, nous envoyons la fiche client a nos déménageurs partenaires (procédure manuelle)<br/>\r\n<br/>\r\nJ'ai été ammené a créer un site secondaire dédié aux professionnels pour automatiser la seconde partie du processus. <br/>\r\nJ'ai donc été ammené à implémenter de a a z un nouveau site pour permmetre aux professionnels du déménagement de s'inscrire, visualiser la liste des déménagement disponibles et faire une offre au client final avec la génération d'un appel d'offre en pdf.<br/>\r\nA la fin de ma période de stage, le CTO m'a offert un petit bonus et quelques livres à lire.<br/>",
+        "start_date": "2016-05-01",
+        "end_date": "2016-08-01",
+        "banner": "experience_banner/next_stories_banner3.png"
+    }
+},
+{
+    "model": "experience.experience",
+    "pk": 5,
+    "fields": {
+        "job_title": "Développeur Symfony",
+        "contract_type": "INTERNSHIP",
+        "company_name": "Extenso Partner",
+        "localisation": "Yvelines, France",
+        "description": "Extenso Partner est une société dans les Yvelines (78) qui développe des solutions web pour la gestion de place de parking.<br/>\r\n<br/>\r\nJ'ai été ammené a faire différentes taches en semi autonomie sous la direction du cto et seul employé de la sociétée.<br/>\r\nJ'ai été nottament ammené à développer des pages avec le framework symfony tels que des pages de listing et des fomrulaires<br/>\r\nLe front-end est géré directement par symfony sans framework javascript front-end<br/>",
+        "start_date": "2014-08-01",
+        "end_date": "2014-12-01",
+        "banner": "experience_banner/extenso_partner.png"
+    }
+},
+{
+    "model": "experience.experienceskill",
+    "pk": 1,
+    "fields": {
+        "experience": 5,
+        "skill": 13
+    }
+},
+{
+    "model": "experience.experienceskill",
+    "pk": 2,
+    "fields": {
+        "experience": 5,
+        "skill": 14
+    }
+},
+{
+    "model": "experience.experienceskill",
+    "pk": 3,
+    "fields": {
+        "experience": 5,
+        "skill": 15
+    }
+},
+{
+    "model": "experience.experienceskill",
+    "pk": 4,
+    "fields": {
+        "experience": 5,
+        "skill": 12
+    }
+},
+{
+    "model": "experience.experienceskill",
+    "pk": 5,
+    "fields": {
+        "experience": 5,
+        "skill": 8
+    }
+},
+{
+    "model": "experience.experienceskill",
+    "pk": 6,
+    "fields": {
+        "experience": 5,
+        "skill": 16
+    }
+},
+{
+    "model": "experience.experienceskill",
+    "pk": 7,
+    "fields": {
+        "experience": 4,
+        "skill": 2
+    }
+},
+{
+    "model": "experience.experienceskill",
+    "pk": 8,
+    "fields": {
+        "experience": 4,
+        "skill": 3
+    }
+},
+{
+    "model": "experience.experienceskill",
+    "pk": 9,
+    "fields": {
+        "experience": 4,
+        "skill": 4
+    }
+},
+{
+    "model": "experience.experienceskill",
+    "pk": 10,
+    "fields": {
+        "experience": 4,
+        "skill": 6
+    }
+},
+{
+    "model": "experience.experienceskill",
+    "pk": 11,
+    "fields": {
+        "experience": 4,
+        "skill": 13
+    }
+},
+{
+    "model": "experience.experienceskill",
+    "pk": 12,
+    "fields": {
+        "experience": 4,
+        "skill": 14
+    }
+},
+{
+    "model": "experience.experienceskill",
+    "pk": 13,
+    "fields": {
+        "experience": 4,
+        "skill": 15
+    }
+},
+{
+    "model": "experience.experienceskill",
+    "pk": 14,
+    "fields": {
+        "experience": 4,
+        "skill": 18
+    }
+},
+{
+    "model": "experience.experienceskill",
+    "pk": 15,
+    "fields": {
+        "experience": 3,
+        "skill": 12
+    }
+},
+{
+    "model": "experience.experienceskill",
+    "pk": 16,
+    "fields": {
+        "experience": 3,
+        "skill": 8
+    }
+},
+{
+    "model": "experience.experienceskill",
+    "pk": 17,
+    "fields": {
+        "experience": 3,
+        "skill": 13
+    }
+},
+{
+    "model": "experience.experienceskill",
+    "pk": 18,
+    "fields": {
+        "experience": 3,
+        "skill": 14
+    }
+},
+{
+    "model": "experience.experienceskill",
+    "pk": 19,
+    "fields": {
+        "experience": 3,
+        "skill": 15
+    }
+},
+{
+    "model": "experience.experienceskill",
+    "pk": 20,
+    "fields": {
+        "experience": 3,
+        "skill": 16
+    }
+},
+{
+    "model": "experience.experienceskill",
+    "pk": 21,
+    "fields": {
+        "experience": 3,
+        "skill": 4
+    }
+},
+{
+    "model": "experience.experienceskill",
+    "pk": 22,
+    "fields": {
+        "experience": 2,
+        "skill": 2
+    }
+},
+{
+    "model": "experience.experienceskill",
+    "pk": 23,
+    "fields": {
+        "experience": 2,
+        "skill": 3
+    }
+},
+{
+    "model": "experience.experienceskill",
+    "pk": 24,
+    "fields": {
+        "experience": 2,
+        "skill": 4
+    }
+},
+{
+    "model": "experience.experienceskill",
+    "pk": 25,
+    "fields": {
+        "experience": 2,
+        "skill": 7
+    }
+},
+{
+    "model": "experience.experienceskill",
+    "pk": 26,
+    "fields": {
+        "experience": 2,
+        "skill": 13
+    }
+},
+{
+    "model": "experience.experienceskill",
+    "pk": 27,
+    "fields": {
+        "experience": 2,
+        "skill": 14
+    }
+},
+{
+    "model": "experience.experienceskill",
+    "pk": 28,
+    "fields": {
+        "experience": 2,
+        "skill": 15
+    }
+},
+{
+    "model": "experience.experienceskill",
+    "pk": 29,
+    "fields": {
+        "experience": 2,
+        "skill": 16
+    }
+},
+{
+    "model": "experience.experienceskill",
+    "pk": 30,
+    "fields": {
+        "experience": 2,
+        "skill": 18
+    }
+},
+{
+    "model": "experience.experienceskill",
+    "pk": 31,
+    "fields": {
+        "experience": 1,
+        "skill": 2
+    }
+},
+{
+    "model": "experience.experienceskill",
+    "pk": 32,
+    "fields": {
+        "experience": 1,
+        "skill": 3
+    }
+},
+{
+    "model": "experience.experienceskill",
+    "pk": 33,
+    "fields": {
+        "experience": 1,
+        "skill": 4
+    }
+},
+{
+    "model": "experience.experienceskill",
+    "pk": 34,
+    "fields": {
+        "experience": 1,
+        "skill": 6
+    }
+},
+{
+    "model": "experience.experienceskill",
+    "pk": 35,
+    "fields": {
+        "experience": 1,
+        "skill": 5
+    }
+},
+{
+    "model": "experience.experienceskill",
+    "pk": 36,
+    "fields": {
+        "experience": 1,
+        "skill": 7
+    }
+},
+{
+    "model": "experience.experienceskill",
+    "pk": 37,
+    "fields": {
+        "experience": 1,
+        "skill": 9
+    }
+},
+{
+    "model": "experience.experienceskill",
+    "pk": 38,
+    "fields": {
+        "experience": 1,
+        "skill": 10
+    }
+},
+{
+    "model": "experience.experienceskill",
+    "pk": 39,
+    "fields": {
+        "experience": 2,
+        "skill": 10
+    }
+},
+{
+    "model": "experience.experienceskill",
+    "pk": 40,
+    "fields": {
+        "experience": 1,
+        "skill": 11
+    }
+},
+{
+    "model": "experience.experienceskill",
+    "pk": 41,
+    "fields": {
+        "experience": 1,
+        "skill": 13
+    }
+},
+{
+    "model": "experience.experienceskill",
+    "pk": 42,
+    "fields": {
+        "experience": 1,
+        "skill": 14
+    }
+},
+{
+    "model": "experience.experienceskill",
+    "pk": 43,
+    "fields": {
+        "experience": 1,
+        "skill": 15
+    }
+},
+{
+    "model": "experience.experienceskill",
+    "pk": 44,
+    "fields": {
+        "experience": 1,
+        "skill": 16
+    }
+},
+{
+    "model": "experience.experienceskill",
+    "pk": 46,
+    "fields": {
+        "experience": 1,
+        "skill": 17
+    }
+},
+{
+    "model": "experience.experienceskill",
+    "pk": 47,
+    "fields": {
+        "experience": 1,
+        "skill": 18
+    }
+},
+{
+    "model": "experience.experiencetask",
+    "pk": 1,
+    "fields": {
+        "description": "Pages de listing d'objets de la logique métier",
+        "tooltip": "Listing de la base de donnée (places de parking et modèles de voitures) via le ORM de symfony avec un affichage natif via le moteur front-end twig.\r\nle listing est triable et filterable coté front-end via du code JS fait sans framework à l'ancienne.",
+        "experience": 5,
+        "importance": 4,
+        "skills": [
+            8,
+            12,
+            13,
+            14,
+            15
+        ]
+    }
+},
+{
+    "model": "experience.experiencetask",
+    "pk": 2,
+    "fields": {
+        "description": "Script d'Import base de donnée client",
+        "tooltip": "Script d'Import de base de donnée qui permet de lire un fichier de type excel (.csv)\r\n\r\nEt d'importer les modèles dans la base de donnée.",
+        "experience": 5,
+        "importance": 1,
+        "skills": [
+            15
+        ]
+    }
+},
+{
+    "model": "experience.experiencetask",
+    "pk": 3,
+    "fields": {
+        "description": "Pages de Formulaire d'ajout / modification",
+        "tooltip": "Pages Symfony qui permet l'écriture dans la base de donnée avec l'ajout / modification d'objets de la logique métier (places de parking, voitures)",
+        "experience": 5,
+        "importance": 3,
+        "skills": [
+            2
+        ]
+    }
+},
+{
+    "model": "experience.experiencetask",
+    "pk": 4,
+    "fields": {
+        "description": "Script D'export de base de donnée",
+        "tooltip": "Script d'export de base de donnée en php natif sans framework qui permet d'exporter une base de donnée en fichier de type excel (.csv)\r\nLa base de donnée etait extremement vielle, le logiciel permettant de la lire etant codé dans un language obsolète en francais (tant que, si, sinon ...) sur windows 98.\r\nHeuresement, un plugin permettait d'injecter du code php.",
+        "experience": 5,
+        "importance": 2,
+        "skills": [
+            1
+        ]
+    }
+},
+{
+    "model": "experience.experiencetask",
+    "pk": 5,
+    "fields": {
+        "description": "Pages d'inscription utilisateur",
+        "tooltip": "Création de page django de A à Z en passant par la vue, le model, le template, urls et forms.\r\nCréation en base de donnée d'utilisateurs de manière sécurisée nottament via un système de sécurisation de mot de passe et de confirmation d'email via un broker SMTP.",
+        "experience": 4,
+        "importance": 0,
+        "skills": [
+            4
+        ]
+    }
+},
+{
+    "model": "experience.experiencetask",
+    "pk": 6,
+    "fields": {
+        "description": "Listing de la logique métier",
+        "tooltip": "Listing d'objets de la logique métiers (appels d'offres) que l'on expose a nos partenaires déménageurs",
+        "experience": 4,
+        "importance": 1,
+        "skills": [
+            1
+        ]
+    }
+},
+{
+    "model": "experience.experiencetask",
+    "pk": 7,
+    "fields": {
+        "description": "formulaires",
+        "tooltip": "formulaires de modifications de devis / appels d'offre avec l'ajout ou le retrait d'options ect ...\r\n\r\ngénération pdf des devis / appels d'offre de manière automatique.",
+        "experience": 4,
+        "importance": 2,
+        "skills": [
+            3
+        ]
+    }
+},
+{
+    "model": "experience.experiencetask",
+    "pk": 8,
+    "fields": {
+        "description": "implémentation d'un système de fidélisation",
+        "tooltip": "Implémentation d'une logique non gérée en interne via des appels API fait depuis le back-end django.\r\nRédaction d'une documentation et utilisation du framework restfull pour gérer les retours APIs de manière plus simple.",
+        "experience": 4,
+        "importance": 4,
+        "skills": [
+            4
+        ]
+    }
+},
+{
+    "model": "experience.experiencetask",
+    "pk": 9,
+    "fields": {
+        "description": "champ d'edition html",
+        "tooltip": "implémentation d'un editeur de texte html via tinymce editor qui permet de customiser le contenu généré des devis / factures / appels d'offres.",
+        "experience": 4,
+        "importance": 3,
+        "skills": [
+            2
+        ]
+    }
+},
+{
+    "model": "experience.experiencetask",
+    "pk": 10,
+    "fields": {
+        "description": "correctifs bugs en production",
+        "tooltip": "execution de tickets incidents pour corriger les bugs en productions (html, css, php symfony)",
+        "experience": 3,
+        "importance": 0,
+        "skills": [
+            1
+        ]
+    }
+},
+{
+    "model": "experience.experiencetask",
+    "pk": 11,
+    "fields": {
+        "description": "tests unitaires CI/CD gitlab",
+        "tooltip": "tests unitaires pour valider les nouvelles features ainsi que certains features deja existante.\r\nCeci est fait dans un cadre d'intégration continue via un script gitlab CI/CD qui permet de faire tester le code de manière automatique avant une mise en production",
+        "experience": 3,
+        "importance": 0,
+        "skills": [
+            1
+        ]
+    }
+},
+{
+    "model": "experience.experiencetask",
+    "pk": 12,
+    "fields": {
+        "description": "nouvelles features logique métier",
+        "tooltip": "nouvelle features de la logique métier en php / css / html (nottament la prise en charge des réductions d'impots et de la tva pour les donnateurs situés en belgique)",
+        "experience": 3,
+        "importance": 0,
+        "skills": [
+            1
+        ]
+    }
+},
+{
+    "model": "experience.experiencetask",
+    "pk": 13,
+    "fields": {
+        "description": "nouvelles features front-end",
+        "tooltip": "nouvelles features front-end, nottament le développement d'une page d'acceuil pour https://www.touscoprod.com, affichage des projets en cours et terminés avec un carroussel, fait en php / javascript / html / css",
+        "experience": 3,
+        "importance": 0,
+        "skills": [
+            2
+        ]
+    }
+},
+{
+    "model": "experience.experiencetask",
+    "pk": 14,
+    "fields": {
+        "description": "tests unitaires et mise en place d'un bot Gitlab CI/CD",
+        "tooltip": "tests unitaires python et mise en place de manière autonome d'un bot gitlab CI/CD pour tester les features après chaque commit avec une mise en production une fois par semaine suite à l'éxécution d'un système de tests unitaire avancé effectué via un click sur le workflow gitlab.",
+        "experience": 2,
+        "importance": 0,
+        "skills": [
+            1
+        ]
+    }
+},
+{
+    "model": "experience.experiencetask",
+    "pk": 15,
+    "fields": {
+        "description": "script d'import de base de donnée client",
+        "tooltip": "import de base de donnée de nouveaux client via fichiers (.csv)\r\nscript fait à la main pour pouvoir gérer les bases de données clientes non conforme \r\n(prise en charge des doublons des fiches clientes ect, synchronisation d'informations redondantes dans plusieures tables ect ...)",
+        "experience": 2,
+        "importance": 0,
+        "skills": [
+            1
+        ]
+    }
+},
+{
+    "model": "experience.experiencetask",
+    "pk": 16,
+    "fields": {
+        "description": "nouvelles vues django, forms django, django templates",
+        "tooltip": "nouvelles vues django, forms django, django templates",
+        "experience": 2,
+        "importance": 0,
+        "skills": [
+            1
+        ]
+    }
+},
+{
+    "model": "experience.experiencetask",
+    "pk": 17,
+    "fields": {
+        "description": "editeur de texte tinymce pour générer des pdf",
+        "tooltip": "génération de pdf et editeur html pour générer des devis / appels d'offre pour nos professionnels via la librairies tinymce et via le système de template django",
+        "experience": 4,
+        "importance": 0,
+        "skills": [
+            4
+        ]
+    }
+},
+{
+    "model": "experience.experiencetask",
+    "pk": 18,
+    "fields": {
+        "description": "correctif de bugs en production",
+        "tooltip": "correctif de bugs en production via des tickets incidents trello qui sont convertis en tickets technique incident gitlab qui sont ensuite réalisé sur une Pull/Merge Request",
+        "experience": 2,
+        "importance": 0,
+        "skills": [
+            5
+        ]
+    }
+}
+]

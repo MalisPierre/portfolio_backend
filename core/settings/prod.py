@@ -2,7 +2,7 @@ from pathlib import Path
 import os
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-DEBUG = False
+DEBUG = True#False
 
 DATABASES = {
     'default': {

@@ -9,7 +9,7 @@ class VeryBasicMSkillSerializer(serializers.Serializer):
 class BasicSkillSerializer(serializers.ModelSerializer):
     class Meta:
         model = Skill
-        fields = ['id', 'title', 'level', 'icon']
+        fields = ['skill__id', 'title', 'level', 'skill__icon']
 
 class DetailedSkillSerializer(serializers.ModelSerializer):
     class Meta:

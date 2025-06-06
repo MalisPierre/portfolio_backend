@@ -7,7 +7,7 @@
         "contract_type": "CDI",
         "company_name": "Zerosix",
         "localisation": "Montpellier, France",
-        "description": "Zerosix est une société qui propose des solutions pour fidéliser la clientèle dans les secteurs tels que le retail, l'optique et la restauration.<br/>\r\n<br/>\r\nJ'ai été ammené a structurer et implémenter les tests cypress en intégration continue sur gitlab et à les faires tourner avec des données et fixtures django python<br/>\r\n<br/>\r\nJ'ai aussi été ammené a développer des features et des pages vue.js qui communique avec le back-end django grace à graphql<br/>\r\n<br/>\r\nJ'ai aussi fait un nombre importants de taches diverses et variées tels que la résolution d'incident et l'implémentation de nouvelles fonctionnalitées<br/>\r\n<br/>",
+        "description": "Zerosix est une société qui propose des solutions pour fidéliser la clientèle dans les secteurs tels que le retail, l'optique et la restauration.<br/>\r\n<br/>\r\nC'est ma tout première expérience sur un framework front-end tel que Vue.JS et j'ai beaucoup monté en niveau de compétences sur la la partie front-end.<br/>\r\n<br/>\r\nJ'ai été ammené a structurer et implémenter les tests cypress en intégration continue sur gitlab et à les faires tourner avec des données et fixtures django python<br/>\r\nJ'ai aussi été ammené a développer des features et des pages vue.js qui communique avec le back-end django grace à graphql<br/>\r\nJ'ai aussi fait un nombre importants de taches diverses et variées tels que la résolution d'incident et l'implémentation de nouvelles fonctionnalitées<br/>\r\n<br/>",
         "start_date": "2024-09-02",
         "end_date": "2025-05-13",
         "banner": "experience_banner/zerosix-banner.png"
@@ -669,6 +669,72 @@
         "description": "correctif de bugs en production",
         "tooltip": "correctif de bugs en production via des tickets incidents trello qui sont convertis en tickets technique incident gitlab qui sont ensuite réalisé sur une Pull/Merge Request",
         "experience": 2,
+        "importance": 0,
+        "skills": [
+            5
+        ]
+    }
+},
+{
+    "model": "experience.experiencetask",
+    "pk": 19,
+    "fields": {
+        "description": "Administration django",
+        "tooltip": "Nouvelles pages administration django, filtres, et actions nottament avec celery",
+        "experience": 1,
+        "importance": 0,
+        "skills": [
+            4
+        ]
+    }
+},
+{
+    "model": "experience.experiencetask",
+    "pk": 20,
+    "fields": {
+        "description": "nouvelles pages et modèles",
+        "tooltip": "nouvelles features métiers, nottament le process de création de devis avec le front-end développé avec Vue JS et communication en API Graphql avec le back-end django. Nouvelles tables en base de donnée via l'orm django.",
+        "experience": 1,
+        "importance": 0,
+        "skills": [
+            3
+        ]
+    }
+},
+{
+    "model": "experience.experiencetask",
+    "pk": 21,
+    "fields": {
+        "description": "implémentation hubspot",
+        "tooltip": "implémentation hubspot pour gérer la plupart de la logique business non-métier, nottament avec la création d'un pont api et d'un webhook coté django back-end.",
+        "experience": 1,
+        "importance": 0,
+        "skills": [
+            2
+        ]
+    }
+},
+{
+    "model": "experience.experiencetask",
+    "pk": 23,
+    "fields": {
+        "description": "tests unitaires",
+        "tooltip": "tests unitaires django python pour tester les nouvelles features fait de manière assez avancé nottament pour mocquer les appels apis, services smtp, génération de taches casynchrone ect ...",
+        "experience": 1,
+        "importance": 0,
+        "skills": [
+            4,
+            5
+        ]
+    }
+},
+{
+    "model": "experience.experiencetask",
+    "pk": 24,
+    "fields": {
+        "description": "tests fonctionnels cypress",
+        "tooltip": "restructuration de l'enssemble des tests fonctionnels existant avec une méthode pour pouvoir reférencer de manière dynamique les instances générées via les fixtures django.\r\nDe plus implémentation de très nombreux tests cypress pour tester l'interface",
+        "experience": 1,
         "importance": 0,
         "skills": [
             5

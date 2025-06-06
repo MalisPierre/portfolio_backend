@@ -34,7 +34,8 @@ class Experience(models.Model):
     banner = models.FileField(upload_to="experience_banner", verbose_name="Banner", help_text="Banner Image of the experience", null=True)
 
     def skills(self):   
-        return ExperienceSkill.objects.filter(experience__id=self.id).select_related('skill').values(skill__id=F('skill__id'), title=F('skill__title'), icon=F('skill__icon'), level=F('skill__level'))
+        return ExperienceSkill.objects.filter(experience__id=self.id).select_related('skill').values(
+            skill__id=F('skill__id'), title=F('skill__title'), skill__icon=F('skill__icon'), level=F('skill__level'))
 
     def tasks(self):
         return ExperienceTask.objects.filter(experience__id=self.pk).values('id', 'description', 'tooltip').order_by('-importance')

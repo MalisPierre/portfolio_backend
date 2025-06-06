@@ -55,6 +55,12 @@ class Skill(models.Model):
             start_date=F('experience__start_date'),
             )
 
+    def skill__id(self):
+        return self.pk
+    
+    def skill__icon(self):
+        return str(self.icon)
+
     def __str__ (self):
         return "Skill - [{}]".format(self.title)
         
